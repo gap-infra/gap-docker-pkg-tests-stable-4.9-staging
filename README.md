@@ -1,4 +1,6 @@
-# gap-docker-pkg-tests-master
+[![Build Status](https://travis-ci.org/gap-system/gap-docker-pkg-tests-master-staging.svg?branch=master)](https://travis-ci.org/gap-system/gap-docker-pkg-tests-master-staging)
+
+# gap-docker-pkg-tests-master-staging
 
 This repository is used to run standard tests for GAP packages prepared
 for the next major release of GAP using the Docker container with GAP
