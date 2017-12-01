@@ -4,7 +4,6 @@ language: c
 
 env:
 - PKG_NAME=alnuth
-- PKG_NAME=anupq
 - PKG_NAME=atlasrep
 - PKG_NAME=crime
 - PKG_NAME=ctbllib
@@ -24,7 +23,6 @@ env:
 - PKG_NAME=modisom
 - PKG_NAME=normalizinterface
 - PKG_NAME=nq
-- PKG_NAME=polenta
 - PKG_NAME=polycyclic
 - PKG_NAME=polymaking
 - PKG_NAME=profiling
