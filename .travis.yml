@@ -39,7 +39,6 @@ env:
 - PKG_NAME=utils
 - PKG_NAME=uuid
 - PKG_NAME=wedderga
-- PKG_NAME=xmod
 - PKG_NAME=xmodalg
 - PKG_NAME=zeromqinterface
 
