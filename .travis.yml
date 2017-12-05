@@ -3,12 +3,10 @@ sudo: required
 language: c
 
 env:
-- PKG_NAME=alnuth
 - PKG_NAME=atlasrep
 - PKG_NAME=crime
 - PKG_NAME=ctbllib
 - PKG_NAME=fga
-- PKG_NAME=float
 - PKG_NAME=fr
 - PKG_NAME=gbnp
 - PKG_NAME=groupoids
@@ -21,7 +19,6 @@ env:
 - PKG_NAME=loops
 - PKG_NAME=lpres
 - PKG_NAME=modisom
-- PKG_NAME=normalizinterface
 - PKG_NAME=nq
 - PKG_NAME=polycyclic
 - PKG_NAME=polymaking
@@ -40,7 +37,6 @@ env:
 - PKG_NAME=uuid
 - PKG_NAME=wedderga
 - PKG_NAME=xmodalg
-- PKG_NAME=zeromqinterface
 
 services:
   - docker
