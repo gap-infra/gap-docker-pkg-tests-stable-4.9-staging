@@ -16,20 +16,17 @@ env:
 
   matrix:
     - PKG_NAME=atlasrep
-    - PKG_NAME=browse
     - PKG_NAME=crime
     - PKG_NAME=ctbllib
     - PKG_NAME=fga
     - PKG_NAME=fr
     - PKG_NAME=gbnp
-    - PKG_NAME=groupoids
     - PKG_NAME=guarana
     - PKG_NAME=hapcryst
     - PKG_NAME=happrime
     - PKG_NAME=linboxing
     - PKG_NAME=loops
     - PKG_NAME=modisom
-    - PKG_NAME=nq
     - PKG_NAME=polycyclic
     - PKG_NAME=polymaking
     - PKG_NAME=profiling
