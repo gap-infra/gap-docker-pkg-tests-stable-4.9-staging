@@ -10,12 +10,12 @@
 
 3. If the package is not loadable because its build fails, 
 check the latest build log for the Docker container: 
-https://hub.docker.com/r/gapsystem/gap-docker-master/builds/
+https://hub.docker.com/r/gapsystem/gap-docker-stable-4.9/builds/
 
 4. If you need to investigate the problem in the same 
 environment that is used for these tests, you may download 
 and run the Docker container following instructions given at
-https://hub.docker.com/r/gapsystem/gap-docker-master/
+https://hub.docker.com/r/gapsystem/gap-docker-stable-4.9/
 
 5. If all three logs looks good to you, it could be that it 
 is still not possible to detect the status of your test, for
