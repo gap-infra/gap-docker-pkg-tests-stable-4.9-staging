@@ -22,11 +22,13 @@ env:
     - PKG_NAME=fr
     - PKG_NAME=gbnp
     - PKG_NAME=guarana
+    - PKG_NAME=groupoids
     - PKG_NAME=hapcryst
     - PKG_NAME=happrime
     - PKG_NAME=linboxing
     - PKG_NAME=loops
     - PKG_NAME=modisom
+    - PKG_NAME=nq
     - PKG_NAME=polycyclic
     - PKG_NAME=polymaking
     - PKG_NAME=profiling
@@ -41,7 +43,6 @@ env:
     - PKG_NAME=uuid
     - PKG_NAME=wedderga
     - PKG_NAME=xmodalg
-    - PKG_NAME=zeromqinterface
 
 services:
   - docker
