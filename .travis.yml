@@ -21,6 +21,7 @@ env:
     - PKG_NAME=fga
     - PKG_NAME=fr
     - PKG_NAME=gbnp
+    - PKG_NAME=genss
     - PKG_NAME=guarana
     - PKG_NAME=groupoids
     - PKG_NAME=hapcryst
@@ -35,9 +36,10 @@ env:
     - PKG_NAME=qaos
     - PKG_NAME=radiroot
     - PKG_NAME=semigroups
-    - PKG_NAME=simpcomp
+    - PKG_NAME=sgpviz
     - PKG_NAME=smallgrp
     - PKG_NAME=tomlib
+    - PKG_NAME=toric
     - PKG_NAME=unipot
     - PKG_NAME=unitlib
     - PKG_NAME=uuid
