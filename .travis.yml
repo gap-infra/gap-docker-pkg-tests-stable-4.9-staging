@@ -17,6 +17,8 @@ env:
   matrix:
     - PKG_NAME=atlasrep
     - PKG_NAME=crime
+    - PKG_NAME=cryst
+    - PKG_NAME=crystcat
     - PKG_NAME=ctbllib
     - PKG_NAME=fga
     - PKG_NAME=fr
