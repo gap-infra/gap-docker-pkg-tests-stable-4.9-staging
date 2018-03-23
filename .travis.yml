@@ -15,14 +15,19 @@ env:
     # - GAPDIRNAME="gap-master"
 
   matrix:
+    - PKG_NAME=aclib
     - PKG_NAME=atlasrep
+    - PKG_NAME=autpgrp
+    - PKG_NAME=carat
     - PKG_NAME=crime
     - PKG_NAME=ctbllib
     - PKG_NAME=fga
+    - PKG_NAME=format
     - PKG_NAME=fr
     - PKG_NAME=gbnp
     - PKG_NAME=guarana
     - PKG_NAME=groupoids
+    - PKG_NAME=grpconst
     - PKG_NAME=hapcryst
     - PKG_NAME=happrime
     - PKG_NAME=linboxing
@@ -35,6 +40,7 @@ env:
     - PKG_NAME=qaos
     - PKG_NAME=radiroot
     - PKG_NAME=semigroups
+    - PKG_NAME=sglppow
     - PKG_NAME=sgpviz
     - PKG_NAME=smallgrp
     - PKG_NAME=tomlib
