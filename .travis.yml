@@ -46,3 +46,7 @@ before_install:
 script:
     - docker version
     - docker run -v $PWD:/home/gap/travis/ ${GAPCONTAINER} /bin/sh -c "GAPDIRNAME=${GAPDIRNAME} PKG_NAME=${PKG_NAME} TERM=xterm LANG=en_GB.UTF-8 /home/gap/travis/ci.sh"
+
+notifications:
+  slack:
+    secure: H2wxCYv+4kQ+uBFDf0aGbchY1zfnnDzr01RT0tbup93LWCmxM56DkBxyvXkeWvDhlLhfFhOH8aoxKu+O/QYb+kR4zvtCM5HacwfIOzsyZl7vm5IlNudLRbrJZFK2bc24LU6d85J13fTGXOP6hgwHx8M1FczhUTDnrfS9YQMxS/MA1GRtay0kD9PKI60efC97ZQ5jNn0Q3DBxOXu82OAsXiz5doC5tDutDpW/iYtRY5PaWu8j2ofixRcg5RcN7FUjf+fpbiS8J4bL89aj8Vf6gCAhumGA3rpcUyCWx27X6dbeG25SQBtFPzIdT0IlO48KAuQbrSi5l+F1FFSK1sh6i0XzWv0K+Zgi3oLu0rNFIZ/vBByxoHp47xDp0ZI0M2Ac4KzzljenPJAv3bxp/O00F1p1FikzLQ89RJtE6pcuEiax9C2ixgceHocZfTj8D1xS9nfQ4+rD1JbvNeM3XS+3SORzS/oUURXRbiNt8UFCWA9hkfHhxfgntgLbcBfdgtDUx8MFH5FfoPqZDk1z+iHycAldJDDFwCXnXMyIed09+WvN664CiDz7NqXpR/HHgMRkYlOuKi9Xc/awc2X/bXAr1m1ywnFE0HCEnBcspWL5M18BSyOarLv4dsuj6Oq3mEqhsfRnTobRnZyUbpkdI0h6vIcYqbATSsNpQ4cEts/ilyI=
