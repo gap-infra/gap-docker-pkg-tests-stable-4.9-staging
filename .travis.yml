@@ -18,7 +18,6 @@ env:
     - PKG_NAME=atlasrep
     - PKG_NAME=crime
     - PKG_NAME=ctbllib
-    - PKG_NAME=fga
     - PKG_NAME=gbnp
     - PKG_NAME=guarana
     - PKG_NAME=hapcryst
@@ -27,7 +26,6 @@ env:
     - PKG_NAME=loops
     - PKG_NAME=polymaking
     - PKG_NAME=profiling
-    - PKG_NAME=qaos
     - PKG_NAME=radiroot
     - PKG_NAME=semigroups
     - PKG_NAME=smallgrp
