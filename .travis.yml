@@ -22,6 +22,7 @@ env:
     - PKG_NAME=guarana
     - PKG_NAME=hapcryst
     - PKG_NAME=happrime
+    - PKG_NAME=liealgdb
     - PKG_NAME=linboxing
     - PKG_NAME=loops
     - PKG_NAME=polymaking
@@ -29,6 +30,7 @@ env:
     - PKG_NAME=radiroot
     - PKG_NAME=semigroups
     - PKG_NAME=smallgrp
+    - PKG_NAME=sophus
     - PKG_NAME=tomlib
     - PKG_NAME=unipot
     - PKG_NAME=unitlib
