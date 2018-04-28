@@ -25,7 +25,6 @@ env:
     - PKG_NAME=loops
     - PKG_NAME=polymaking
     - PKG_NAME=profiling
-    - PKG_NAME=radiroot
     - PKG_NAME=semigroups
     - PKG_NAME=tomlib
     - PKG_NAME=unitlib
