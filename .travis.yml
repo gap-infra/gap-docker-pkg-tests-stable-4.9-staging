@@ -27,8 +27,6 @@ env:
     - PKG_NAME=profiling
     - PKG_NAME=semigroups
     - PKG_NAME=tomlib
-    - PKG_NAME=unitlib
-    - PKG_NAME=wedderga
 
 services:
   - docker
