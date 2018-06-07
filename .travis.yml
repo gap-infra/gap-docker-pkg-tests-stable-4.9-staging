@@ -24,8 +24,6 @@ env:
     - PKG_NAME=linboxing
     - PKG_NAME=loops
     - PKG_NAME=polymaking
-    - PKG_NAME=profiling
-    - PKG_NAME=semigroups
     - PKG_NAME=tomlib
 
 services:
