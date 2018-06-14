@@ -17,14 +17,19 @@ env:
   matrix:
     - PKG_NAME=atlasrep
     - PKG_NAME=crime
+    - PKG_NAME=cryst
     - PKG_NAME=ctbllib
+    - PKG_NAME=fr
     - PKG_NAME=gbnp
     - PKG_NAME=guarana
     - PKG_NAME=hapcryst
     - PKG_NAME=linboxing
     - PKG_NAME=loops
+    - PKG_NAME=nq
     - PKG_NAME=polymaking
+    - PKG_NAME=sgpviz
     - PKG_NAME=tomlib
+    - PKG_NAME=xmodalg
 
 services:
   - docker
