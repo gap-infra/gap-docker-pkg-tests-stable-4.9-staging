@@ -27,6 +27,7 @@ env:
     - PKG_NAME=polymaking
     - PKG_NAME=sgpviz
     - PKG_NAME=tomlib
+    - PKG_NAME=utils
     - PKG_NAME=xmodalg
 
 services:
