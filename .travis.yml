@@ -19,6 +19,8 @@ env:
     - PKG_NAME=crime
     - PKG_NAME=cryst
     - PKG_NAME=ctbllib
+    - PKG_NAME=curlinterface
+    - PKG_NAME=deepthought
     - PKG_NAME=gbnp
     - PKG_NAME=guarana
     - PKG_NAME=hapcryst
